@@ -6,12 +6,12 @@ Each Virtual Miner has a set speed, which is its power ratio. Virtual Miners are
 
 Ownership of a Virtual Miner NFT is the owners POP, with eBTC rewards based on the Virtual Miner Type, Speed and Total Daily Emissions.
 
-The power ratio is used to calculate the mined rewards of eBTC per hour<br>
-FX100 - 1x speed
-FX250 - 2.5 x speed
-GFX500 - 3.6 x speed
-GFX750 - 6 x speed
-GFX808 - 7.8 x speed
+The power ratio is used to calculate the mined rewards of eBTC per hour (block)<br>
+FX100 - 1x speed<br>
+FX250 - 2.5 x speed<br>
+GFX500 - 3.6 x speed<br>
+GFX750 - 6 x speed<br>
+GFX808 - 7.8 x speed<br>
 
 <img width="416" alt="image" src="https://github.com/fredenrg/Eco-Bitcoin---eBTC/assets/39649555/62ddf844-2cae-4693-becc-defe289207db">
 
