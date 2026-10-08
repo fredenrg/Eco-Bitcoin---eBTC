@@ -1,4 +1,9 @@
 # Eco-Bitcoin---eBTC
+
+Note: This section needs to be updated to the Solana migration instance.
+
+
+
 Eco Bitcoin is an exploration into algorithmic virtual mining using NFTs as Proof Of Participation (POP) on the Stellar Network (Blockchain).
 
 Virtual Miners use what we call POP (Proof Of Participation) to mine eBTC. 
