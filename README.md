@@ -1,71 +1,53 @@
-# Eco-Bitcoin---eBTC
+# eBTC – Eco Bitcoin
 
-Note: This section needs to be updated to the Solana migration instance.
+Eco Bitcoin (eBTC) is a fixed-supply token on **Solana**, distributed through Virtual Miner NFTs and on-chain reward draws instead of energy-hungry mining.
 
+**Website:** [ebtc.fredenergy.org](https://ebtc.fredenergy.org) · **Whitepaper:** [Eco-Bitcoin-eBTC-Solana-Whitepaper-2026.pdf](https://ebtc.fredenergy.org/Eco-Bitcoin-eBTC-Solana-Whitepaper-2026.pdf)
 
+## Highlights
 
-Eco Bitcoin is an exploration into algorithmic virtual mining using NFTs as Proof Of Participation (POP) on the Stellar Network (Blockchain).
+- **21,000,000 eBTC maximum supply.** 16,800,000 eBTC sits in the program-controlled reward vault and is paid out over about 7 years.
+- **Virtual Miners are Metaplex Core NFTs.** There are 4,269 in total across 5 tiers. Higher tiers have a better chance of winning each draw and a larger payout.
+- **Draws run about every 10 minutes.** Winners are picked by verifiable randomness (MagicBlock VRF, with ORAO VRF as the fallback). The keeper cannot choose winners.
+- **Holder Boost.** For 60 seconds after each draw interval, only holders can open the next draw. The first holder to press Boost adds one extra entry for one of their miners in that draw.
+- **No sale proceeds go to a development wallet.** 95% of every mint goes into SOL/eBTC liquidity and 5% pays the keeper to run draws.
+- **Locked liquidity.** The pool's LP tokens are held by the program, which has no withdraw instruction.
+- **Migration from Stellar.** Holders of the original Stellar eBTC and Virtual Miners can claim on Solana at [migrate-ebtc.fredenergy.org](https://migrate-ebtc.fredenergy.org).
 
-Virtual Miners use what we call POP (Proof Of Participation) to mine eBTC. 
-Each Virtual Miner has a set speed, which is its power ratio. Virtual Miners are available on Litemint.com from Tuesday 09 April 2024 and will be released in batches. Our website (ebtc.fredenergy.org) will have a list of available VMiners.
+## Virtual Miner tiers
 
-Ownership of a Virtual Miner NFT is the owners POP, with eBTC rewards based on the Virtual Miner Type, Speed and Total Daily Emissions.
+| Tier | Supply | Chance weight | Payout multiplier |
+|---|---|---|---|
+| FX100 | 1,500 | 10 | 1.0x |
+| FX250 | 1,000 | 25 | 1.25x |
+| GFX500 | 900 | 36 | 1.5x |
+| GFX750 | 500 | 60 | 2.0x |
+| GFX808 | 369 | 78 | 3.0x |
 
-The power ratio is used to calculate the mined rewards of eBTC per hour (block)<br>
-FX100 - 1x speed<br>
-FX250 - 2.5 x speed<br>
-GFX500 - 3.6 x speed<br>
-GFX750 - 6 x speed<br>
-GFX808 - 7.8 x speed<br>
+Chance weight sets how often a miner is selected. The multiplier sets the size of its payout. Mint prices are set on-chain and shown on the website.
 
-<img width="416" alt="image" src="https://github.com/fredenrg/Eco-Bitcoin---eBTC/assets/39649555/62ddf844-2cae-4693-becc-defe289207db">
+## Solana addresses (mainnet)
 
+| What | Address |
+|---|---|
+| eBTC token mint | [`FbF23z2ra7DEsqVu2LEPWhAQCmEtCc5uLvVibKzVHLoy`](https://solscan.io/token/FbF23z2ra7DEsqVu2LEPWhAQCmEtCc5uLvVibKzVHLoy) |
+| Virtual Miner collection | [`7XzbxNfz4dfosVLsQSkL991HR1TSLUMr3ZzF45M2eu4`](https://solscan.io/account/7XzbxNfz4dfosVLsQSkL991HR1TSLUMr3ZzF45M2eu4) |
+| Reward engine program | [`7g83deWxasLDaUywxCGyFynTSPAZs62dJ7ir3ApmoTHc`](https://solscan.io/account/7g83deWxasLDaUywxCGyFynTSPAZs62dJ7ir3ApmoTHc) |
+| Reward vault | [`4TV3h9DuTHshzVdjgesSvKoxirw2JYUMSmf4pCrCFsQi`](https://solscan.io/account/4TV3h9DuTHshzVdjgesSvKoxirw2JYUMSmf4pCrCFsQi) |
+| SOL/eBTC liquidity pool | [`2Q8uaDj1dj1uc8KeZXeD3MPnYuMYxJ7te7xb8TMWmTZh`](https://solscan.io/account/2Q8uaDj1dj1uc8KeZXeD3MPnYuMYxJ7te7xb8TMWmTZh) |
+| Locked LP account | [`Gve2cPeQFbAPugP2ZDH5fKF6RG2w6ZcRQngArxLVubqr`](https://solscan.io/account/Gve2cPeQFbAPugP2ZDH5fKF6RG2w6ZcRQngArxLVubqr) |
+| Pool SOL vault | [`Dbem4TEqhUrq17wruGFGcqeDnKbMgtuiuBCqqQGxntPX`](https://solscan.io/account/Dbem4TEqhUrq17wruGFGcqeDnKbMgtuiuBCqqQGxntPX) |
+| Keeper | [`9xqxKyiznHTEqzA5t6d273CNg7AiGjticvgmB6PTZ1Jy`](https://solscan.io/account/9xqxKyiznHTEqzA5t6d273CNg7AiGjticvgmB6PTZ1Jy) |
+| Team wallet 1 | [`CY9UUFsRvN3nYr15XQj6JE1hVQrjuM2wPdpRVVWD6NuJ`](https://solscan.io/account/CY9UUFsRvN3nYr15XQj6JE1hVQrjuM2wPdpRVVWD6NuJ) |
+| Team wallet 2 | [`Dp9P3Xbjwv5tiYmG6fQY62SGdTWuAiFqc1qfvUZ24Apm`](https://solscan.io/account/Dp9P3Xbjwv5tiYmG6fQY62SGdTWuAiFqc1qfvUZ24Apm) |
 
-Where;<br>
-•	RewardsPerDaytype is the number of rewards generated per day for a VirtualMinerType
+## Legacy Stellar team addresses
 
-•	VMSpeedtype and VMNumberOftype are the speed and number of miners of a specific VirtualMinerType
+These Stellar accounts held the project's eBTC and Virtual Miners before the move to Solana.
 
-•	The denominator is the sum of the products of the speed and number of all miners, representing total mining power
+| What | Address |
+|---|---|
+| Stellar team wallet 1 | [`GBDQSZLNSCBHK2RLQGUXY6TK5SM2B3B7YVEUBJ5T3ODH4IYHMOFOHUQQ`](https://stellar.expert/explorer/public/account/GBDQSZLNSCBHK2RLQGUXY6TK5SM2B3B7YVEUBJ5T3ODH4IYHMOFOHUQQ) |
+| Stellar team wallet 2 | [`GDRT7NYI4YHSAFCTQOKCJXH72NVGPJAPIVVY6G463YZJQPJRBDW7KEDY`](https://stellar.expert/explorer/public/account/GDRT7NYI4YHSAFCTQOKCJXH72NVGPJAPIVVY6G463YZJQPJRBDW7KEDY) |
 
-•	TotalDailyEmission is the total number of rewards available for mining each day
-
-eBTC Emissions
-There is a maximum supply of 21,000,000 eBTC with an annual quartering of eBTC available for the subsequent years. eBTC not virtually mined for the preceding year will be added to the calculations and a new 10-year emission schedule created.
-
-Year	&nbsp;eBTC<br>
-1		&nbsp;&nbsp;5,563,288<br>
-2		&nbsp;&nbsp;4,172,466<br>
-3		&nbsp;&nbsp;3,129,350<br>
-4		&nbsp;&nbsp;2,347,012<br>
-5		&nbsp;&nbsp;1,760,259<br>
-6		&nbsp;&nbsp;1,320,194<br>
-7		&nbsp;&nbsp;990,146<br>
-8		&nbsp;&nbsp;742,609<br>
-9		&nbsp;&nbsp;556,957<br>
-10		&nbsp;&nbsp;417,718<br>
-
-Note: Only virtually mined, and eBTC added to liquidity pools from Virtual Miner sales will be available on the markets (SDEX). This provides the scarcity factor inherent in Bitcoin.
-
-
-Mined eBTC is paid hourly and weekly as follows;
-50% of mined eBTC are paid hourly, the remaining 50% are accumulated and paid weekly as a claimable balance with a random claimable date between 9-12 months. The claimable date feature is used to provide a steady distribution flow.
-
-
-ASSET CODE: eBTC<br>
-ISSUER: GCEAHWRSUTM2T6ATHI7DFGLXV4COMFL4OGJLAELLJIE6S6AWBGUEEBTC<br>
-DOMAIN: https://ebtc.fredenergy.org<br>
-
-Wallets owned by the project:<br>
-Distributor: https://stellar.expert/explorer/public/account/GC54OYR3SJ33B6EJQVKLMHZLKMQPPCI2ORC6Z4ZBCZVVX4C3R4TTDIST<br>
-Liquidity Pool: https://stellar.expert/explorer/public/account/GADLMUX24H7CETOCZLZYB6GGMO3IAGFISWGY5ITROQX42LZQ63YZELIQ<br>
-Reward feeder account: https://stellar.expert/explorer/public/account/GBAQUKZJFM5QFBKWVNNRTYAS3IUAGJ26DTOJADKM7NRXWSR2X3ZECOIN<br>
-Rewards payment account: https://stellar.expert/explorer/public/account/GA3DEOEQTYMTNTIVZ7IIHJEJXFBX54HAETVQMH4YW2SMHIRBOZBECOIN<br>
-
-
-Please check out the website, join our Telegram and read the Whitepaper for more information<br>
-Telegram: https://t.me/FREDEnergycommunity<br>
-Twitter: https://twitter.com/eco_bitcoin_<br>
-Twitter FRED Energy: https://twitter.com/energy_fred<br>
-
-Website: https://ebtc.fredenergy.org<br>
+Always check the token mint address before buying or trading eBTC.
