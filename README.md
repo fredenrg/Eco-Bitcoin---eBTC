@@ -43,7 +43,7 @@ Chance weight sets how often a miner is selected. The multiplier sets the size o
 
 ## Legacy Stellar team addresses
 
-These Stellar accounts held the project's eBTC and Virtual Miners before the move to Solana.
+The Project was first launched on the Stellar network and has migrated liquidity, NFT's and eBTC holdings to Solana. These Stellar accounts held the project's eBTC and Virtual Miners before the move to Solana.
 
 | What | Address |
 |---|---|
